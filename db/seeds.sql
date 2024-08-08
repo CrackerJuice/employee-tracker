@@ -8,11 +8,11 @@ VALUES
 
 INSERT INTO role (role_title, salary, department_id)
 VALUES 
-("j1"),
-("j2"),
-("j3"),
-("j4"),
-("j5"),
+("j1", 60000, 1),
+("j2", 70000, 2),
+("j3", 80000, 3),
+("j4", 90000, 4),
+("j5", 100000, 5),
 
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
@@ -30,4 +30,4 @@ VALUES
 ("David", "Taylor", 5, 4),
 ("Samantha", "Anderson", 1, 5),
 ("Emily", "Thomas", 2, 5),
-("Michael", "Jackson", 3, 5),
+("Michael", "Jackson", 3, 5)
